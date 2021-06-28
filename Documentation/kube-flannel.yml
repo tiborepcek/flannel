@@ -1,7 +1,7 @@
-# changed "v1beta1" to "v1"
+# changed "v1beta1" to "v1" did not work
 
 ---
-apiVersion: policy/v1
+apiVersion: policy/v1beta1
 kind: PodSecurityPolicy
 metadata:
   name: psp.flannel.unprivileged
